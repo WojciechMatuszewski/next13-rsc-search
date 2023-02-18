@@ -1,0 +1,36 @@
+{
+  "name": "search",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "init": "prisma migrate dev --name init",
+    "seed": "prisma db seed"
+  },
+  "dependencies": {
+    "@next/font": "13.1.6",
+    "@prisma/client": "^4.10.1",
+    "@react-hookz/web": "22.0.0",
+    "@types/react-dom": "18.0.11",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "lru-cache": "7.16.1",
+    "next": "13.1.7-canary.19",
+    "prisma": "4.10.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "4.9.5"
+  },
+  "prisma": {
+    "seed": "tsx ./prisma/seed.ts"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "7.6.0",
+    "@types/node": "18.14.0",
+    "@types/react": "18.0.28",
+    "tsx": "3.12.3"
+  }
+}
